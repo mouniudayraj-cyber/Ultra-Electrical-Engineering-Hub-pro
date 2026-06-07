@@ -1,0 +1,95 @@
+{
+  "market_data_input": {
+    "symbol": "NIFTY50",
+    "exchange": "NSE",
+    "timestamp": "2024-01-15T14:30:00Z",
+    "timeframes": {
+      "1m": {
+        "candles": [
+          {
+            "timestamp": "2024-01-15T14:30:00Z",
+            "open": 50000,
+            "high": 50050,
+            "low": 49980,
+            "close": 50030,
+            "volume": 150000
+          }
+        ],
+        "current_price": 50030,
+        "atr_14": 85,
+        "sma_20": 49950,
+        "sma_50": 49800,
+        "rsi_14": 65
+      },
+      "5m": {
+        "candles": [],
+        "current_price": 50030,
+        "atr_14": 120,
+        "sma_20": 49900,
+        "sma_50": 49750,
+        "rsi_14": 62
+      },
+      "15m": {
+        "candles": [],
+        "current_price": 50030,
+        "atr_14": 150,
+        "sma_20": 49850,
+        "sma_50": 49700,
+        "rsi_14": 58
+      },
+      "1h": {
+        "candles": [],
+        "current_price": 50030,
+        "atr_14": 200,
+        "sma_20": 49800,
+        "sma_50": 49600,
+        "rsi_14": 55
+      },
+      "1d": {
+        "candles": [],
+        "current_price": 50030,
+        "atr_14": 300,
+        "sma_20": 49500,
+        "sma_50": 49200,
+        "rsi_14": 50
+      }
+    },
+    "derivatives_data": {
+      "open_interest": 250000000,
+      "put_call_ratio": 1.15,
+      "implied_volatility": 18.5,
+      "max_pain_zone": 50000,
+      "call_buildup": 5000000,
+      "put_buildup": 4500000,
+      "gamma_pressure_zones": {
+        "call": 50200,
+        "put": 49800
+      }
+    },
+    "volume_data": {
+      "current_volume": 150000,
+      "avg_volume_20": 120000,
+      "volume_ratio": 1.25,
+      "cumulative_volume": "accumulating"
+    },
+    "sentiment_data": {
+      "news_sentiment_score": 65,
+      "fii_flow_million_usd": 50,
+      "dii_flow_million_usd": -20,
+      "market_mood": "optimistic"
+    },
+    "liquidity_data": {
+      "support_level": 49900,
+      "resistance_level": 50100,
+      "support_touches": 3,
+      "resistance_touches": 2,
+      "wick_rejection_strength": 0.7
+    }
+  },
+  "notes": {
+    "format": "All prices in contract currency (INR for NSE)",
+    "volume": "In contracts",
+    "timestamp": "ISO 8601 UTC format",
+    "indicators": "Pre-calculated for accuracy"
+  }
+}
